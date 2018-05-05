@@ -1,0 +1,237 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: times new roman;
+}
+
+.background {
+	background-image: url(images/slide2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar-header a {
+	font-size: 40px;
+	/*font-family:cursive;*/
+	font-family: 'Kumar One Outline';
+	color: white;
+	text-decoration: none;
+	padding: 0 0 0 15px;
+}
+
+.nav-w {
+	background-color: transparent;
+	margin-top: 5px;
+	border-bottom: none;
+}
+
+.ul-li a {
+	margin: 0 10px;
+	font-size: 20px;
+	/*border-bottom:1px solid white;*/
+	font-family: sans-serif;
+}
+
+.ul-li a:hover {
+	border-bottom: 10px solid transparent;
+	transition: 1s;
+}
+
+.booking-form p {
+	padding-top: 5px;
+}
+
+.booking-form {
+	margin-top: 50px;
+	background-color: rgba(0, 0, 15, 0.5);
+	color: white;
+	font-size: 15px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	padding: 80px 50px;
+	border-radius: 50%;
+}
+
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+	font-family: cursive;
+	color: white;
+}
+
+input[type="text"],
+[type="number"],
+[type="date"],
+[type="time"],
+[type="submit"],
+[type="reset"] {
+	background-color: transparent;
+	border: 1px solid white;
+	outline: none;
+	color: white;
+}
+
+.waqar {
+	background-color: transparent;
+	border: 1px solid white;
+	outline: none;
+	color: white;
+}
+
+.check {
+	background-color: transparent;
+	/*border:1px solid white;*/
+	outline: none;
+	color: white;
+}
+
+.waqar option {
+	color: black;
+}
+
+form {
+	margin: auto;
+}
+
+.booking-form form {
+	max-width: 400px;
+	padding: 0 20px;
+}
+
+label {
+	float: left;
+}
+
+.section9 p {
+	text-align: center;
+	margin-left: -77px;
+	margin-top: 90px;
+	font-weight: bolder;
+}
+
+.section9 h1 {
+	text-align: center;
+	font-size: 60px;
+	font-weight: bolder;
+	margin-top: -25px;
+	margin-left: 135px;
+}
+
+.bot-logo1 img {
+	margin-top: 67px;
+	margin-left: 115px;
+}
+
+.bot-logo2 img {
+	margin-left: 65px;
+	margin-top: 32px;
+}
+
+.info li {
+	list-style: none;
+	float: left;
+	padding: 20px;
+	margin-top: 50px;
+	color: gray;
+	box-sizing: border-box;
+	font-weight: bolder;
+	margin-left: -20px;
+}
+
+.social .svg-inline--fa {
+	color: white;
+}
+
+.info .svg-inline--fa {
+	color: gray;
+}
+
+@media only screen and (max-width:480px) {
+	.nav-w {
+		padding: 0 50px 0 0;
+	}
+}
+
+.navbar-header {
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible;
+	-webkit-animation-name: flip;
+	animation-name: flip;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+@-webkit-keyframes flip {
+	0% {
+		-webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+		transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	40% {
+		-webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+		transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	50% {
+		-webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+		transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	80% {
+		-webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+		transform: perspective(400px) scale3d(.95, .95, .95);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	100% {
+		-webkit-transform: perspective(400px);
+		transform: perspective(400px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+}
+
+@keyframes flip {
+	0% {
+		-webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+		transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	40% {
+		-webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+		transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	50% {
+		-webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+		transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	80% {
+		-webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+		transform: perspective(400px) scale3d(.95, .95, .95);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	100% {
+		-webkit-transform: perspective(400px);
+		transform: perspective(400px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.section9 {
+		padding: 0 50px 0 0;
+	}
+}
